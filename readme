@@ -1,0 +1,10 @@
+Novelist recognition using Persistent homology.
+Implementation of "Topological Signature of 19th Century Novelists: Persistent Homology in Text Mining" with some modifications.
+Original work can be found here:
+https://www.researchgate.net/publication/328376524_Topological_Signature_of_19th_Century_Novelists_Persistent_Homology_in_Text_Mining
+ 
+User manual:
+1) In folder html_books are books that need to be parsed from html to txt. Use Python script fromHTMLtoTXT.py. Some books need to be manually cleaned after that.
+2) Then to save indexes of character appearances use Java file Characters.java. The books are in books folder and indexes are saved in indexes folder
+3) The distances between characters are computed in characterDistances.py script using indexes from index folder. The distances are saved in distance folder.
+4) The accuracy matrix is calculated in classification.py script. This script will also save all Rips diagrams in folder images.
