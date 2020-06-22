@@ -8,3 +8,7 @@ User manual:
 2) Then to save indexes of character appearances use Java file Characters.java. The books are in books folder and indexes are saved in indexes folder
 3) The distances between characters are computed in characterDistances.py script using indexes from index folder. The distances are saved in distance folder.
 4) The accuracy matrix is calculated in classification.py script.
+
+Authors:
+Aleksandra Ruzic 47/2016
+Petar Zecevic 169/2016
